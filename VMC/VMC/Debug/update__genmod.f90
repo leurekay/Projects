@@ -1,0 +1,8 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Sep 29 13:27:04 2016
+        MODULE UPDATE__genmod
+          INTERFACE 
+            SUBROUTINE UPDATE(MODE)
+              CHARACTER(LEN=10) :: MODE
+            END SUBROUTINE UPDATE
+          END INTERFACE 
+        END MODULE UPDATE__genmod

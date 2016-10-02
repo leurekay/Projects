@@ -1,0 +1,10 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Wed Sep 28 19:05:05 2016
+        MODULE ASCENDINGORDER__genmod
+          INTERFACE 
+            SUBROUTINE ASCENDINGORDER(N,S,IMAP)
+              INTEGER(KIND=4) :: N
+              REAL(KIND=8) :: S(*)
+              INTEGER(KIND=4) :: IMAP(*)
+            END SUBROUTINE ASCENDINGORDER
+          END INTERFACE 
+        END MODULE ASCENDINGORDER__genmod

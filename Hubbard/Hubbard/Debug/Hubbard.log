@@ -1,0 +1,69 @@
+﻿生成启动时间为 2016/10/2 17:58:37。
+     1>项目“c:\Users\aa\documents\visual studio 2013\Projects\Hubbard\Hubbard\Hubbard.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt "..\新建文件夹\analysis.cpp" "..\新建文件夹\detwf.cpp" "..\新建文件夹\fpctrl.cpp" "..\新建文件夹\jastrow.cpp" "..\新建文件夹\lattice.cpp" "..\新建文件夹\lattice_1dchain.cpp" "..\新建文件夹\lattice_2dsqr.cpp" "..\新建文件夹\lattice_2dsqr2layer.cpp" "..\新建文件夹\main.cpp" "..\新建文件夹\mccresults.cpp" "..\新建文件夹\mccrun.cpp" "..\新建文件夹\mccrun_prepare.cpp" "..\新建文件夹\modman.cpp" "..\新建文件夹\obs_corr.cpp" "..\新建文件夹\obs_dblocc.cpp" "..\新建文件夹\obs_deltak.cpp" "..\新建文件夹\obs_dkdkp.cpp" "..\新建文件夹\obs_dkerg.cpp" "..\新建文件夹\obs_energy.cpp" "..\新建文件夹\obs_nncorr.cpp" "..\新建文件夹\obs_pconfs.cpp" "..\新建文件夹\obs_sscorr.cpp" "..\新建文件夹\options.cpp" "..\新建文件夹\pconf.cpp" "..\新建文件夹\sched.cpp" "..\新建文件夹\tvector.cpp" "..\新建文件夹\utils.cpp" "..\新建文件夹\varparam.cpp" "..\新建文件夹\wmatrix.cpp"
+         wmatrix.cpp
+     1>c:\users\aa\documents\visual studio 2013\projects\hubbard\新建文件夹\wmatrix.hpp(24): fatal error C1083: 无法打开包括文件: “eigen3/Eigen/Core”: No such file or directory
+         varparam.cpp
+     1>c:\users\aa\documents\visual studio 2013\projects\hubbard\新建文件夹\varparam.hpp(24): fatal error C1083: 无法打开包括文件: “eigen3/Eigen/Core”: No such file or directory
+         utils.cpp
+         tvector.cpp
+     1>c:\users\aa\documents\visual studio 2013\projects\hubbard\新建文件夹\tvector.hpp(24): fatal error C1083: 无法打开包括文件: “eigen3/Eigen/Core”: No such file or directory
+         sched.cpp
+     1>c:\users\aa\documents\visual studio 2013\projects\hubbard\新建文件夹\sched.hpp(23): fatal error C1083: 无法打开包括文件: “boost/mpi/communicator.hpp”: No such file or directory
+         pconf.cpp
+     1>c:\users\aa\documents\visual studio 2013\projects\hubbard\新建文件夹\pconf.hpp(27): fatal error C1083: 无法打开包括文件: “boost/optional.hpp”: No such file or directory
+         options.cpp
+     1>c:\users\aa\documents\visual studio 2013\projects\hubbard\新建文件夹\options.hpp(23): fatal error C1083: 无法打开包括文件: “boost/program_options/variables_map.hpp”: No such file or directory
+         obs_sscorr.cpp
+     1>c:\users\aa\documents\visual studio 2013\projects\hubbard\新建文件夹\obs.hpp(23): fatal error C1083: 无法打开包括文件: “boost/mpi/communicator.hpp”: No such file or directory
+         obs_pconfs.cpp
+     1>c:\users\aa\documents\visual studio 2013\projects\hubbard\新建文件夹\obs.hpp(23): fatal error C1083: 无法打开包括文件: “boost/mpi/communicator.hpp”: No such file or directory
+         obs_nncorr.cpp
+     1>c:\users\aa\documents\visual studio 2013\projects\hubbard\新建文件夹\obs.hpp(23): fatal error C1083: 无法打开包括文件: “boost/mpi/communicator.hpp”: No such file or directory
+         obs_energy.cpp
+     1>c:\users\aa\documents\visual studio 2013\projects\hubbard\新建文件夹\obs.hpp(23): fatal error C1083: 无法打开包括文件: “boost/mpi/communicator.hpp”: No such file or directory
+         obs_dkerg.cpp
+     1>c:\users\aa\documents\visual studio 2013\projects\hubbard\新建文件夹\obs.hpp(23): fatal error C1083: 无法打开包括文件: “boost/mpi/communicator.hpp”: No such file or directory
+         obs_dkdkp.cpp
+     1>c:\users\aa\documents\visual studio 2013\projects\hubbard\新建文件夹\obs.hpp(23): fatal error C1083: 无法打开包括文件: “boost/mpi/communicator.hpp”: No such file or directory
+         obs_deltak.cpp
+     1>c:\users\aa\documents\visual studio 2013\projects\hubbard\新建文件夹\obs.hpp(23): fatal error C1083: 无法打开包括文件: “boost/mpi/communicator.hpp”: No such file or directory
+         obs_dblocc.cpp
+     1>c:\users\aa\documents\visual studio 2013\projects\hubbard\新建文件夹\obs.hpp(23): fatal error C1083: 无法打开包括文件: “boost/mpi/communicator.hpp”: No such file or directory
+         obs_corr.cpp
+     1>c:\users\aa\documents\visual studio 2013\projects\hubbard\新建文件夹\obs.hpp(23): fatal error C1083: 无法打开包括文件: “boost/mpi/communicator.hpp”: No such file or directory
+         modman.cpp
+     1>c:\users\aa\documents\visual studio 2013\projects\hubbard\新建文件夹\modman.hpp(27): fatal error C1083: 无法打开包括文件: “boost/optional.hpp”: No such file or directory
+         mccrun_prepare.cpp
+     1>c:\users\aa\documents\visual studio 2013\projects\hubbard\新建文件夹\mccrun_prepare.hpp(27): fatal error C1083: 无法打开包括文件: “boost/optional.hpp”: No such file or directory
+         mccrun.cpp
+     1>c:\users\aa\documents\visual studio 2013\projects\hubbard\新建文件夹\mccrun.hpp(25): fatal error C1083: 无法打开包括文件: “boost/mpi/communicator.hpp”: No such file or directory
+         mccresults.cpp
+     1>c:\users\aa\documents\visual studio 2013\projects\hubbard\新建文件夹\mccresults.hpp(28): fatal error C1083: 无法打开包括文件: “boost/optional.hpp”: No such file or directory
+         正在生成代码...
+         正在编译...
+         main.cpp
+     1>c:\users\aa\documents\visual studio 2013\projects\hubbard\新建文件夹\main.cpp(22): fatal error C1083: 无法打开包括文件: “boost/mpi/environment.hpp”: No such file or directory
+         lattice_2dsqr2layer.cpp
+     1>c:\users\aa\documents\visual studio 2013\projects\hubbard\新建文件夹\lattice_2dsqr2layer.hpp(28): fatal error C1083: 无法打开包括文件: “eigen3/Eigen/Core”: No such file or directory
+         lattice_2dsqr.cpp
+     1>c:\users\aa\documents\visual studio 2013\projects\hubbard\新建文件夹\lattice_2dsqr.hpp(27): fatal error C1083: 无法打开包括文件: “eigen3/Eigen/Core”: No such file or directory
+         lattice_1dchain.cpp
+     1>c:\users\aa\documents\visual studio 2013\projects\hubbard\新建文件夹\lattice_1dchain.hpp(28): fatal error C1083: 无法打开包括文件: “eigen3/Eigen/Core”: No such file or directory
+         lattice.cpp
+     1>c:\users\aa\documents\visual studio 2013\projects\hubbard\新建文件夹\lattice.hpp(28): fatal error C1083: 无法打开包括文件: “eigen3/Eigen/Core”: No such file or directory
+         jastrow.cpp
+     1>c:\users\aa\documents\visual studio 2013\projects\hubbard\新建文件夹\jastrow.hpp(27): fatal error C1083: 无法打开包括文件: “eigen3/Eigen/Core”: No such file or directory
+         fpctrl.cpp
+     1>c:\users\aa\documents\visual studio 2013\projects\hubbard\新建文件夹\fpctrl.hpp(23): fatal error C1083: 无法打开包括文件: “boost/serialization/access.hpp”: No such file or directory
+         detwf.cpp
+     1>c:\users\aa\documents\visual studio 2013\projects\hubbard\新建文件夹\detwf.hpp(27): fatal error C1083: 无法打开包括文件: “eigen3/Eigen/Core”: No such file or directory
+         analysis.cpp
+     1>c:\users\aa\documents\visual studio 2013\projects\hubbard\新建文件夹\analysis.hpp(23): fatal error C1083: 无法打开包括文件: “boost/filesystem.hpp”: No such file or directory
+         正在生成代码...
+     1>已完成生成项目“c:\Users\aa\documents\visual studio 2013\Projects\Hubbard\Hubbard\Hubbard.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:05.36

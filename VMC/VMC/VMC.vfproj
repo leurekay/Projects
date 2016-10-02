@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualStudioProject ProjectCreator="Intel Fortran" Keyword="Console Application" Version="11.0" ProjectIdGuid="{BFAC5F91-A828-49C1-B303-8D1C63563F7D}">
+	<Platforms>
+		<Platform Name="Win32"/></Platforms>
+	<Configurations>
+		<Configuration Name="Debug|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" DebugInformationFormat="debugEnabled" Optimization="optimizeDisabled" WarnInterfaces="true" Traceback="true" BoundsCheck="true" StackFrameCheck="true" RuntimeLibrary="rtMultiThreadedDebugDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" GenerateDebugInformation="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration>
+		<Configuration Name="Release|Win32">
+				<Tool Name="VFFortranCompilerTool" SuppressStartupBanner="true" RuntimeLibrary="rtMultiThreadedDLL"/>
+				<Tool Name="VFLinkerTool" LinkIncremental="linkIncrementalNo" SuppressStartupBanner="true" SubSystem="subSystemConsole"/>
+				<Tool Name="VFResourceCompilerTool"/>
+				<Tool Name="VFMidlTool" SuppressStartupBanner="true"/>
+				<Tool Name="VFCustomBuildTool"/>
+				<Tool Name="VFPreLinkEventTool"/>
+				<Tool Name="VFPreBuildEventTool"/>
+				<Tool Name="VFPostBuildEventTool"/>
+				<Tool Name="VFManifestTool" SuppressStartupBanner="true"/></Configuration></Configurations>
+	<Files>
+		<Filter Name="Header Files" Filter="fi;fd"/>
+		<Filter Name="Resource Files" Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe"/>
+		<Filter Name="Source Files" Filter="f90;for;f;fpp;ftn;def;odl;idl">
+		<File RelativePath=".\cobyla.f90"/>
+		<File RelativePath=".\connection.f90"/>
+		<File RelativePath=".\definejob.f90"/>
+		<File RelativePath=".\dyson.f90"/>
+		<File RelativePath=".\hamilton.f90"/>
+		<File RelativePath=".\infraStructure.f90"/>
+		<File RelativePath=".\initconfig.f90"/>
+		<File RelativePath=".\MCthread.f90"/>
+		<File RelativePath=".\measure.f90"/>
+		<File RelativePath=".\mft2vmc.f90"/>
+		<File RelativePath=".\model_hexKondo.f90"/>
+		<File RelativePath=".\model_honeycomb.f90"/>
+		<File RelativePath=".\model_Kagome.f90"/>
+		<File RelativePath=".\model_r2xr2.f90"/>
+		<File RelativePath=".\model_r2xr2Kondo.f90"/>
+		<File RelativePath=".\model_YRZ.f90"/>
+		<File RelativePath=".\MyLAPACK.f90"/>
+		<File RelativePath=".\optimizer_bisec.f90"/>
+		<File RelativePath=".\optimizer_cobyla.f90"/>
+		<File RelativePath=".\optimizer_gene.f90"/>
+		<File RelativePath=".\optimizer_LM.f90"/>
+		<File RelativePath=".\penalty.f90"/>
+		<File RelativePath=".\SzBdGVMC.f90"/>
+		<File RelativePath=".\tabulate.f90"/>
+		<File RelativePath=".\updateConfig.f90"/>
+		<File RelativePath=".\utilities.f90"/></Filter></Files>
+	<Globals/></VisualStudioProject>

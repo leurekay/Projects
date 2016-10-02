@@ -1,0 +1,8 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Sep 29 13:27:00 2016
+        MODULE GETDLOGS__genmod
+          INTERFACE 
+            SUBROUTINE GETDLOGS
+              USE VMCPLACE
+            END SUBROUTINE GETDLOGS
+          END INTERFACE 
+        END MODULE GETDLOGS__genmod

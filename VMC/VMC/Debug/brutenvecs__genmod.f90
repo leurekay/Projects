@@ -1,0 +1,16 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Wed Sep 28 19:05:03 2016
+        MODULE BRUTENVECS__genmod
+          INTERFACE 
+            SUBROUTINE BRUTENVECS(N,GINV,NV,V,LV,COL,DET,RATIO,INFO)
+              INTEGER(KIND=4), INTENT(IN) :: NV
+              INTEGER(KIND=4), INTENT(IN) :: N
+              COMPLEX(KIND=8) :: GINV(N,N)
+              COMPLEX(KIND=8), INTENT(IN) :: V(N,NV)
+              INTEGER(KIND=4), INTENT(IN) :: LV(NV)
+              LOGICAL(KIND=4), INTENT(IN) :: COL(NV)
+              COMPLEX(KIND=8) :: DET
+              COMPLEX(KIND=8) :: RATIO
+              INTEGER(KIND=4), INTENT(IN) :: INFO
+            END SUBROUTINE BRUTENVECS
+          END INTERFACE 
+        END MODULE BRUTENVECS__genmod

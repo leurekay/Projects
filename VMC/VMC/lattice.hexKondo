@@ -1,0 +1,6 @@
+nx,ny,npair
+6,6,32
+antiperiodic
+t,f
+JK
+0.2

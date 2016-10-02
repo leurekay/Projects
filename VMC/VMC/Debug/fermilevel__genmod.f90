@@ -1,0 +1,11 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Wed Sep 28 19:05:05 2016
+        MODULE FERMILEVEL__genmod
+          INTERFACE 
+            FUNCTION FERMILEVEL(NVAL,EVAL,N)
+              INTEGER(KIND=4) :: NVAL
+              REAL(KIND=8) :: EVAL(NVAL)
+              INTEGER(KIND=4) :: N
+              REAL(KIND=8) :: FERMILEVEL
+            END FUNCTION FERMILEVEL
+          END INTERFACE 
+        END MODULE FERMILEVEL__genmod

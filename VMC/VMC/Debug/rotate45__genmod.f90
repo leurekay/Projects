@@ -1,0 +1,8 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Wed Sep 28 19:05:05 2016
+        MODULE ROTATE45__genmod
+          INTERFACE 
+            SUBROUTINE ROTATE45(R)
+              REAL(KIND=8) :: R(2)
+            END SUBROUTINE ROTATE45
+          END INTERFACE 
+        END MODULE ROTATE45__genmod

@@ -1,0 +1,9 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Sep 29 13:27:00 2016
+        MODULE EONSITE__genmod
+          INTERFACE 
+            FUNCTION EONSITE
+              USE VMCPLACE
+              REAL(KIND=8) :: EONSITE
+            END FUNCTION EONSITE
+          END INTERFACE 
+        END MODULE EONSITE__genmod

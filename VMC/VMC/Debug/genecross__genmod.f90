@@ -1,0 +1,13 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Sep 29 13:27:01 2016
+        MODULE GENECROSS__genmod
+          INTERFACE 
+            SUBROUTINE GENECROSS(NSEG,CODE1,CODE2,ISG,IBT,LR)
+              INTEGER(KIND=4) :: NSEG
+              INTEGER(KIND=4) :: CODE1(NSEG)
+              INTEGER(KIND=4) :: CODE2(NSEG)
+              INTEGER(KIND=4) :: ISG
+              INTEGER(KIND=4) :: IBT
+              INTEGER(KIND=4) :: LR
+            END SUBROUTINE GENECROSS
+          END INTERFACE 
+        END MODULE GENECROSS__genmod

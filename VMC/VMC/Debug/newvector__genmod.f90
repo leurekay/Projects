@@ -1,0 +1,11 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Sep 29 20:18:04 2016
+        MODULE NEWVECTOR__genmod
+          INTERFACE 
+            SUBROUTINE NEWVECTOR(SPIN,RF,VEC)
+              USE VMCPLACE
+              INTEGER(KIND=4) :: SPIN
+              INTEGER(KIND=4) :: RF(NDIM)
+              COMPLEX(KIND=8) :: VEC(NPAIR)
+            END SUBROUTINE NEWVECTOR
+          END INTERFACE 
+        END MODULE NEWVECTOR__genmod

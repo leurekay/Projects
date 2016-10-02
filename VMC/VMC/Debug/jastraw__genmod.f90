@@ -1,0 +1,9 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Wed Sep 28 19:05:04 2016
+        MODULE JASTRAW__genmod
+          INTERFACE 
+            FUNCTION JASTRAW(VNAME)
+              CHARACTER(LEN=6) :: VNAME
+              LOGICAL(KIND=4) :: JASTRAW
+            END FUNCTION JASTRAW
+          END INTERFACE 
+        END MODULE JASTRAW__genmod

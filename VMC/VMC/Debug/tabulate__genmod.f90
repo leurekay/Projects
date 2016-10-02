@@ -1,0 +1,8 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Sep 29 20:18:04 2016
+        MODULE TABULATE__genmod
+          INTERFACE 
+            SUBROUTINE TABULATE
+              USE VMCPLACE
+            END SUBROUTINE TABULATE
+          END INTERFACE 
+        END MODULE TABULATE__genmod

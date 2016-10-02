@@ -1,0 +1,12 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Wed Sep 28 19:05:05 2016
+        MODULE EXCHANGEABLE__genmod
+          INTERFACE 
+            FUNCTION EXCHANGEABLE(SPIN,SI,SJ,MOTT)
+              INTEGER(KIND=4) :: SPIN
+              INTEGER(KIND=4) :: SI(2)
+              INTEGER(KIND=4) :: SJ(2)
+              LOGICAL(KIND=4) :: MOTT
+              LOGICAL(KIND=4) :: EXCHANGEABLE
+            END FUNCTION EXCHANGEABLE
+          END INTERFACE 
+        END MODULE EXCHANGEABLE__genmod

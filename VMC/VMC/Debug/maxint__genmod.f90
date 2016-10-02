@@ -1,0 +1,8 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Sep 29 13:27:01 2016
+        MODULE MAXINT__genmod
+          INTERFACE 
+            FUNCTION MAXINT
+              INTEGER(KIND=4) :: MAXINT
+            END FUNCTION MAXINT
+          END INTERFACE 
+        END MODULE MAXINT__genmod

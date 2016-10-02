@@ -1,0 +1,7 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Sep 29 13:27:01 2016
+        MODULE GENE_OPT__genmod
+          INTERFACE 
+            SUBROUTINE GENE_OPT
+            END SUBROUTINE GENE_OPT
+          END INTERFACE 
+        END MODULE GENE_OPT__genmod

@@ -1,0 +1,7 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Thu Sep 29 12:53:57 2016
+        MODULE VPOINT__genmod
+          INTERFACE 
+            SUBROUTINE VPOINT
+            END SUBROUTINE VPOINT
+          END INTERFACE 
+        END MODULE VPOINT__genmod
